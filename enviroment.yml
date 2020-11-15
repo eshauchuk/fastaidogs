@@ -1,13 +1,18 @@
-name: example-environment
+name: fastai
 channels:
-  - conda-forge
+- fastai
+- pytorch
+- defaults
 dependencies:
-    - voila
-    - fastai>=2
-    - ipywidgets==7.5.1
-    - pillow<7
-    - packaging
-
-
-
-
+- fastcore>=1.0.0
+- torchvision>=0.7
+- matplotlib
+- pandas
+- requests
+- pyyaml
+- fastprogress>=0.2.4
+- pillow
+- scikit-learn
+- scipy
+- spacy
+- pytorch>=1.6.0
